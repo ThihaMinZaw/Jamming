@@ -1,7 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
-import 'Playlist.css'
+
+import './Playlist.css'
 
 
 export class Playlist extends React.Component{
@@ -13,3 +13,5 @@ export class Playlist extends React.Component{
       </div>)
     }
 }
+
+export default Playlist;
